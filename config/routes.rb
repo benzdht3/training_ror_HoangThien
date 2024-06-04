@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :users
+  get '/login', to:'sessions#new'
+  post '/login', to:'sessions#create'
+  get '/logout', to: 'sessions#destroy'
   get '/signup', to:'users#new'
   get '/help', to:'static_pages#help'
   get '/about', to:'static_pages#about'
@@ -12,4 +14,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "static_pages#home"
+  resources :users
 end

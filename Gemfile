@@ -8,6 +8,7 @@ gem 'bootstrap-sass'
 gem "bcrypt"
 gem 'sass-rails'
 gem 'webpacker'
+gem 'jquery'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
