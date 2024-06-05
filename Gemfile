@@ -9,6 +9,8 @@ gem "bcrypt"
 gem 'sass-rails'
 gem 'webpacker'
 gem 'jquery'
+gem 'faker'
+gem 'will_paginate', '~> 4.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
