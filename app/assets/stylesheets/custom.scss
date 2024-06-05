@@ -33,7 +33,7 @@ textarea{
 }
 
 .btn{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 /* typography */
@@ -130,7 +130,7 @@ footer{
     float: left;
     width: 100%;
     margin-top: 45px;
-    @include box_sizing();
+    @include box_sizing;
 }
 
 /* sidebar */
@@ -176,7 +176,7 @@ input, textarea, select, .uneditable-input {
     border: 1px solid #bbb;
     width: 100%;
     margin-bottom: 15px;
-    @include box_sizing();
+    @include box_sizing;
 }
 
 input {
@@ -196,4 +196,18 @@ input {
     .form-control{
         color: $state-danger-text;
     }
+}
+
+.checkbox{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    span{
+        margin-left: 0px;
+        font-weight: normal;
+    }
+}
+
+#session_remember_me{
+    width: auto;
+    margin-left: -20px;
 }
