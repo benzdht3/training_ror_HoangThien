@@ -11,6 +11,9 @@ gem 'webpacker'
 gem 'jquery'
 gem 'faker'
 gem 'will_paginate', '~> 4.0'
+gem 'active_storage_validations'
+gem 'image_processing'
+gem 'mini_magick'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
