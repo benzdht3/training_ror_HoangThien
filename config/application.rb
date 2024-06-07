@@ -23,6 +23,8 @@ module SampleApp
     #
     config.time_zone = "Asia/Ho_Chi_Minh"
     config.active_record.default_timezone = :local
+    #Include the authenticity token in remote forms
+    config.action_view.embed_authenticity_token_in_remote_forms = true
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
